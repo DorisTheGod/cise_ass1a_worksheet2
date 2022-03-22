@@ -15,4 +15,4 @@ server.get('/api/articles/:id', (req, res) => {
     console.log(req.params);
 });
 
-server.listen(PORT, console.log("Server is working and listening PORT ${PORT}"));
+server.listen(PORT, console.log(`Server is working and listening PORT ${PORT}`));
